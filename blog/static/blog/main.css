@@ -38,6 +38,7 @@ ul {
 
 .article-title {
   color: #444444;
+  font-size: 15pt;
 }
 
 a.article-title:hover {
@@ -50,10 +51,19 @@ a.article-title:hover {
 }
 
 .article-img {
-  height: 65px;
-  width: 65px;
-  margin-right: 16px;
+  height: 70px;
+  width: 70px;
+  margin-left: 16px;
+  margin-top: 10px;
 }
+
+.article-img-2 {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
 
 .article-metadata {
   padding-bottom: 1px;
@@ -81,4 +91,9 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+}
+
+/*not yet workinggg*/
+.sidebar {
+  margin-top: 10px;
 }
