@@ -14,7 +14,9 @@ class Post(models.Model):
 	def __str__(self):
 		return self.title
 
-	#find out why does this save() needs *args and **kwargs
+	#allow you to pass a variable number of arguments to a function even though you dont know what
+	#variable = you do not know before hand that how many arguments can be passed to your function by the user so in this case you use these two keywords
+	#kwargs = named argument
 	#https://opensource.com/life/15/2/resize-images-python
 	def save(self, *args, **kwargs):
 		super().save(*args, **kwargs)
